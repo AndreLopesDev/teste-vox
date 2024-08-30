@@ -15,7 +15,7 @@
 
   <body class="success-container">
     <div class="button">
-      <h1>Cadastro realizado com sucesso!</h1>
+      <h1>Email já registrado, insira um novo para prosseguir</h1>
       <a href="/teste-vox/index.php" class="submit-button" id=return>Retornar</a>
     </div>
   </body>

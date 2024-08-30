@@ -4,16 +4,17 @@
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+    
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cadastro de Usuário</title>
   <link rel="stylesheet" href="/teste-vox/css/styles.css">
   <script src="/teste-vox/js/main.js" defer></script>
-  <script src="/teste-vox/php/config.php" defer></script>
+
 
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="validate-container">
         <?php if (!empty($_GET['msgError'])) { ?>
@@ -31,7 +32,7 @@
 
   <div class="main-container">
     <h1>Cadastro de Usuário</h1>
-    <form action="/teste-vox/php/config.php" method="post" id="form">
+    <form action="/teste-vox/php/registerCheck.php" method="post" id="form">
         <div class="input">
             <label for="name">Nome</label>
             <input type="text" id="name" name="name" placeholder="Digite seu nome">
